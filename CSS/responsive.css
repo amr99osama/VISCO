@@ -1,0 +1,105 @@
+/* ---------- Medium screens (mobile phones)---------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    .stats-items {
+        padding: 10px 0px;
+    }
+    .image-wrap {
+        overflow: hidden;
+    }
+
+    .footer-copyrights {
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width :767px) {
+    /*     Navbar background color  */
+    #home .home-heading h3,
+    .title-upgrade {
+        font-size: 25px;
+    }
+
+    .image-wrap {
+        overflow: hidden
+    }
+
+    .image-wrap img {
+        min-width: 100%;
+
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 575px)
+    
+{
+
+    .home-heading,
+    .title-upgrade {
+        font-size: 20px;
+    }
+
+    .home-btn {
+        padding: 8px 16px;
+        font-size: 14px
+    }
+
+    .services-item-heading {
+        font-size: 16px;
+    }
+    .services-icons i {
+        width: 55px;
+        height: 55px;
+        padding: 10px
+    }
+
+    .diagonal-background {
+        background-image: url(../images/img/background-images/bg-about.jpg);
+        width: 100%;
+        height: 700px;
+        border: 0;
+
+    }
+
+    .about-content-box h3 {
+        margin-top: 100px;
+    }
+
+
+
+.about-content-box p {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+
+
+blockquote {
+    padding: 6px 25px;
+}
+
+blockquote p {
+    font-size: 14px;
+}
+
+
+.stats-items {
+    padding: 15px 0px
+}
+
+.footer-menu {
+    display: none;
+}
+    
+}
